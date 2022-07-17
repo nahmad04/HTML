@@ -1,0 +1,42 @@
+div.a {
+    text-align: center;
+   }
+
+body {
+    background-color: #85622e8f;
+}
+
+h1 {
+    border: #bebebe;
+    border-width: 5px;
+    border-style: inset;
+    background-color: #eeeeee;
+    font-weight: normal;
+}
+
+.main_link {
+    font-size: 25px;
+    position: relative;
+    top: -21.5px;
+    left: 5px;
+    width: 100%;
+}
+
+.main_link span {
+    color: #fff;
+    font: bold 20px/20px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(207, 207, 207);
+    background: rgba(207, 207, 207, 0.7);
+    padding: 8px;
+}
+
+A:link {
+    color: #000;
+    text-decoration: none;
+}
+
+A:visited {
+    color: #000;
+    text-decoration: none;
+}
