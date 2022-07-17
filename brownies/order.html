@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Order </title>
+    </head>
+
+    <link rel="stylesheet" href="order_style.css">
+
+    <div class="a">
+        <body>
+            <img src="brownie.jpg" alt="brownies" style = "position: relative; height: 500px; top: 80px; left: -300px; margin-bottom: -500px;">
+            <img src="brownie.jpg" alt="brownies" style = "position: relative; height: 500px; top: 80px; left: 300px; margin-bottom: -500px;">
+
+            <p class="main_link">
+                <span> 
+                    <a href="/brownies/main/main.html">
+                        Main                            
+                    </a>
+                </span>
+            </p>
+
+            <form action="/brownies/thanks/thanks.html" method="GET" autocomplete="on">
+            <!-- <input type="file"> <--- gets them to upload a file   -->
+
+            <!-- makes it required below for someone to submit both their first & last name -->
+
+            <label>
+                <br>
+                <br>
+                <div class= "full_name">
+                    Please enter your first  and last name:
+                </div>
+                <br>
+
+                <input class = "first_name" type="text" name="first_name" placeholder="John" required>
+                <input class = "last_name" type="text" name="last_name" placeholder="Doe" required>
+                <br>
+                <br>
+            </label>
+
+            <label>
+                <div class= "card_text">
+                    Please enter your 16-digit credit card number:
+                </div>
+                <br>
+
+                <input class = "credit_card" type="number dashes" name="credit_card_number" placeholder="4000 0012 3456 7899" required minlength="16" maxlength="16">
+                <br>
+                <br>
+            </label>
+
+            <label>
+                <div class= "css_text">
+                    Please enter the CSS on the back:
+                </div>
+                <br>
+
+                <input class = "css_number" type="number dashes" name="CSS" placeholder="456" required minlength="3" maxlength="3">
+                <br>
+                <br>
+            </label>
+
+            <label>
+                <div class= "expiration_text">
+                    Please enter the expiration date:
+                </div>
+                <br>
+
+                <input class = "expiration_date" type="number dashes" name="expiration_date" placeholder="4/25" required minlength="4" maxlength="4">
+                <br>
+                <br>
+            </label>
+
+            <label>
+                <div class= "brownie_text">
+                    How many brownies do you want?
+                </div>
+                <br>
+
+                <input class = "brownie_amount" type="number" name="brownie_amount" placeholder="1000" required minlength="1">
+                <br>
+                <br>
+            </label>
+
+            <br>
+
+            <input class = "button" type="submit" value="Submit">
+        </body>
+    </div>
+</html>
