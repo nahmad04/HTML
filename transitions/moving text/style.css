@@ -1,0 +1,19 @@
+div.a {
+    text-align: center;
+}
+
+h1 {
+    font-size: 150px; 
+    margin: 0px;
+}
+
+div.v {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    transition: width 2s;
+  }
+
+  div.v:hover {
+    width: 1500px;
+  }
