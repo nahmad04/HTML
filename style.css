@@ -1,0 +1,120 @@
+
+div.a {
+ text-align: center;
+}
+
+body {
+    background-color: #85622e8f;
+}
+
+.title {
+    margin: 0px;
+    font-size: 60px;
+    background-color: #f3f3f3;
+    border: #747474;
+    border-width: 5px;
+    border-style: ridge;
+}
+
+.main {
+    border: #bebebe;
+    border-width: 5px;
+    border-style: inset;
+    background-color: #eeeeee;
+    font-weight: normal;
+}
+
+.ingredients {
+    font-size: 25px;
+    margin: 70px;
+    background-color: #f3f3f3;
+    border: #bebebe;
+    border-width: 5px;
+    border-style: ridge;
+}
+
+/* puts the text right on the image */
+
+.gif {
+    position: relative;
+    width: 100%;
+}
+
+.ingredients_link {
+    font-size: 25px;
+    position: absolute;
+    top: 185px;
+    left: -500px;
+    width: 100%;
+}
+
+/* adds a transparent box behind the text */
+
+.ingredients_link span {
+    color: #fff;
+    font: bold 20px/20px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(207, 207, 207);
+    background: rgba(207, 207, 207, 0.7);
+    padding: 10px;
+}
+
+.tools_link {
+    font-size: 25px;
+    position: absolute;
+    top: 174px;
+    left: 500px;
+    width: 100%;
+}
+
+.tools_link span {
+    color: #fff;
+    font: bold 20px/20px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(207, 207, 207);
+    background: rgba(207, 207, 207, 0.7);
+    padding: 10px;
+}
+
+.recipe_link {
+    font-size: 25px;
+    position: absolute;
+    top: 159px;
+    left: 0px;
+    width: 100%;
+}
+
+.recipe_link span {
+    color: #fff;
+    font: bold 20px/20px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(207, 207, 207);
+    background: rgba(207, 207, 207, 0.7);
+    padding: 10px;
+}
+
+.order_link {
+    font-size: 25px;
+    position: relative;
+    top: -427px;
+    left: 0px;
+}
+
+.order_link span {
+    color: #fff;
+    font: bold 20px/20px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(207, 207, 207);
+    background: rgba(207, 207, 207, 0.7);
+    padding: 10px;
+}
+
+A:link {
+    color: #000;
+    text-decoration: none;
+}
+
+A:visited {
+    color: #000;
+    text-decoration: none;
+}
